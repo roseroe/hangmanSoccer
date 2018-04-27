@@ -9,9 +9,11 @@
  		<h1>Ingrese letra: </h1>
 		<input type="text" name="ValorAProbar">
 		<input type="submit" value="Validar">
-  		<h1>_ _ _ _ _</h1>
+  		<h1><%= @resultado %></h1>
+  		<label><%= @mascara %></label> <br><br>
  	</form>
  	<h4> <%= session["resultado"] %> </h4>
+ 	
  </center>
 </body>
 </html>
