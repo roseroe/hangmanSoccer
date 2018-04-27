@@ -6,3 +6,8 @@ Feature:
 Scenario:que pueda ver el titulo de las categorias
 	Given que abri el juego
 	Then debo ver "Categorias"
+
+Scenario:que pueda seleccinar categorias
+	Given que abri el juego
+	Then debo seleccionar "Jugadores"
+	

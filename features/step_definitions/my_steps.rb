@@ -12,3 +12,6 @@ Then(/^deberia mostrar guiones$/) do
 end
 
 
+Then(/^debo seleccionar "([^"]*)"$/) do |texto|
+  click_button("Jugadores")
+end
