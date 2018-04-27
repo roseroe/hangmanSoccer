@@ -1,6 +1,7 @@
 require 'sinatra'
 require './config'
 
-get '/' do
 
+get '/' do
+	erb(:index)
 end
