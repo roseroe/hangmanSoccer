@@ -23,4 +23,17 @@ describe Jugar do
 		#Assert: validacion de resultados
 		expect(result).to eq "Letra ingresada esta correcta"
 	end
+
+
+
+	it "deberiamos mostrar una letra en vez de un guion si pertenece a la palabra" do
+		@palabra = 'MESSI'
+		@juego = Jugar.new
+		@juego.set_palabra(@palabra)
+		@juego.actualizar('M')
+		# letra = @juego.get_letra
+		mascara = @juego.get_mascara
+		mascara.should == "M _ _ _ _"
+	end
+
 end
