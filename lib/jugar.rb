@@ -8,10 +8,10 @@ class Jugar
 	#end
 
 	def validar(letra)
-		if(letra== "A")
-			"Letra ingresada esta incorrecta"
-		else
+		if(letra== "M" or letra== "E" or letra== "S" or letra== "S" or letra== "I")
 			"Letra ingresada esta correcta"
+		else 
+			"Letra ingresada esta incorrecta"
 		end
 	end 
 		

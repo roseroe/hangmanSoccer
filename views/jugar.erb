@@ -5,13 +5,13 @@
 </head>
 <body>
  <center>
- 	<form method="POST" action="/jugar">
+ 	<form method="POST" action="/Validar">
  		<h1>Ingrese letra: </h1>
 		<input type="text" name="ValorAProbar">
 		<input type="submit" value="Validar">
   		<h1>_ _ _ _ _</h1>
  	</form>
+ 	<h4> <%= session["resultado"] %> </h4>
  </center>
-	
 </body>
 </html>
