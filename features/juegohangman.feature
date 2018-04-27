@@ -5,4 +5,5 @@ Feature:
 
 Scenario: Mostrar guiones para las letras de la palabra
 	Given que abri el juego
+	When debo seleccionar "Jugadores"
 	Then deberia mostrar guiones
