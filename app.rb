@@ -8,3 +8,7 @@ end
 post '/jugar' do
 	erb(:jugar)
 end
+
+post '/Validar' do
+  erb(:jugar)
+end
